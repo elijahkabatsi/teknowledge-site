@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-tekBlue: #4F49F5;
+  --color-tekPurple: #4117B4;
+  --color-tekLight: #E7E5FF;
+  --color-tekOrange: #FF835D;
+  --color-tekLavender: #E1CDFF;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}
